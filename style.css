@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(70, 96, 96);
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    background-color: rgb(19, 19, 0);
+    width: 100vw;
+    height: 70px;
+    position: relative;
+    align-items: center;
+    padding-left: 40px;
+    border-bottom-left-radius: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#atmosimg{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 300px;
+    width: 200px;
+}
+
+.main2{
+    width: 100vw;
+    height: calc(100% - 70px);
+    background-color: rgb(226, 154, 154);
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 40%;
+    background-image: url(images/background\ image.png);
+    background-size: cover;
+    background-position: top;
+}
+.right{
+     background-color: black;
+    width: 60%;
+    height: 100%;
+    
+}
+
+.para{
+    color: white;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.names1{
+    width: 250px;
+    height: 50px;
+    color: white;
+    border: solid #282828;
+    border-radius: 30px;
+    background-color: #282828;
+    margin-top:50px;
+    margin-left: 70px;
+}
+.names1 input{
+    background-color: #282828;
+    color: white;
+}
+
+.names2{
+    width: 250px;
+    height: 50px;
+    color: white;
+    border: solid #282828;
+    border-radius: 30px;
+    background-color: #282828;
+    margin-left: 450px;
+    margin-top: -50px;
+}
+.names2 input{
+    background-color: #282828;
+    color: white;
+}
+
+.email{
+    width: 500px;
+    height: 60px;
+    color: white;
+    border: solid #282828;
+    border-radius: 30px;
+    background-color: #282828;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.email input{
+    background-color: #282828;
+    color: white;
+}
+
+.password{
+    width: 400px;
+    height: 60px;
+    color: white;
+    border: solid #282828;
+    border-radius: 30px;
+    background-color: #282828;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.password input{
+    background-color: #282828;
+    color: white;
+}
+
+.right button{
+    background-color: rgb(3, 3, 249);
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.right p{
+    color: white;
+    margin-left: 210px;
+    margin-top: 10px;
+
+}
+#rocket{
+    position: absolute;
+    width: 40%;
+    margin-top: 250px;
+    margin-left: 200px;
+}
